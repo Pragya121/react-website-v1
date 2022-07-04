@@ -5,7 +5,39 @@ video {
   position: fixed;
   z-index: -1;
 }
+.splclass {
+  font-family: Circular Std, sans-serif;
+  background: linear-gradient(92.15deg, #8865e9 7.05%, #c4dfbd 95.59%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgba(59, 130, 246, 0.5);
+  --tw-ring-offset-shadow: 0 0 transparent;
+  --tw-ring-shadow: 0 0 transparent;
+  text-emphasis-color: transparent;
+  text-decoration: none;
+  box-shadow: inset 0 -2px 0 rgba(50, 85, 127, 0.5),
+    0 2px 0 rgba(50, 85, 127, 0.5);
+  transition: box-shadow 0.3s;
+  color: inherit;
+  overflow: hidden;
+}
 
+span:hover {
+  background: linear-gradient(92.15deg, #4e2020 7.05%, #b9beb7 95.59%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgba(59, 130, 246, 0.5);
+  --tw-ring-offset-shadow: 0 0 transparent;
+  --tw-ring-shadow: 0 0 transparent;
+  text-emphasis-color: transparent;
+  text-decoration: line-through;
+  box-shadow: orange 0 -30px 0 rgba(50, 85, 127, 0.5),
+    0 2px 0 rgba(255, 29, 29, 0.5);
+}
 .hero-container {
   /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
   height: 100vh;
@@ -28,8 +60,8 @@ video {
   margin-top: 8px;
   color: #fff;
   font-size: 32px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 .hero-btns {
